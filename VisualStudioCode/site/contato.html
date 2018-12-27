@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projetando o site</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="principal">
+            <div class="cabecalho">
+                <img src="img/imagem10.jpg">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="artigos.html">Artigos</a>
+                    </li>
+                    <li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+                    <li>
+                            <a href="produtos.html">Produtos</a>
+                        </li>
+                        <li>
+                            <a href="curriculo.html">Curriculo</a>
+                        </li>
+                        <li>
+                                <a href="oportunidade.html">Oportunidade</a>
+                            </li>
+                </ul>
+            </div>
+            <div class="corpo">
+                <div class="artigos">
+                    <div class="espacamento">
+                            <section id="conteudo-principal">
+			
+                                    <h1>Contato</h1>
+                                    
+                                    <p>
+                                        Entre em contato conosco preenchendo o formulário abaixo:
+                                    </p>
+                                    
+                                    <form action="#" method="post">
+                                        <fieldset>
+                        
+                                            <fieldset class="grupo">
+                                                <div class="campo nome">
+                                                    <label for="nome">Nome <abbr title="preenchimento obrigatório">*</abbr></label>
+                                                    <input type="text" name="nome" id="nome" maxlength="100">
+                                                </div>
+                                                
+                                                <div class="campo empresa">
+                                                    <label for="empresa">Empresa</label>
+                                                    <input type="text" name="empresa" id="empresa" maxlength="100">
+                                                </div>
+                                            </fieldset>
+                        
+                                            <div class="campo">
+                                                <label for="email">E-mail <abbr title="preenchimento obrigatório">*</abbr></label>
+                                                <input type="text" name="email" id="email" maxlength="100">
+                                            </div>
+                        
+                                            <fieldset class="grupo">
+                                                <div class="campo telefone">
+                                                    <label for="telefone">Telefone <abbr title="preenchimento obrigatório">*</abbr></label>
+                                                    <input type="text" name="telefone" id="telefone" maxlength="20">
+                                                </div>
+                                                
+                                                <div class="campo">
+                                                    <label>Departamento</label>
+                                                    <label class="checkbox">
+                                                        <input type="radio" name="departamento"> Comercial
+                                                    </label>
+                                                    <label class="checkbox">
+                                                        <input type="radio" name="departamento"> Financeiro
+                                                    </label>
+                                                    <label class="checkbox">
+                                                        <input type="radio" name="departamento"> Suporte
+                                                    </label>
+                                                </div>
+                                            </fieldset>
+                        
+                                            <div class="campo">
+                                                <label for="assunto">Assunto <abbr title="preenchimento obrigatório">*</abbr></label>
+                                                <select id="assunto" name="assunto">
+                                                    <option>-- Selecione --</option>
+                                                    <option>Orçamento</option>
+                                                    <option>Dúvidas</option>
+                                                    <option>Solicitações</option>
+                                                    <option>Reclamações</option>
+                                                    <option>Outro</option>
+                                                </select>
+                                            </div>
+                        
+                                            <div class="campo">
+                                                <label for="mensagem">Mensagem <abbr title="preenchimento obrigatório">*</abbr></label>
+                                                <textarea id="mensagem" name="mensagem"></textarea>
+                                            </div>
+                        
+                                            <div class="campo">
+                                                <label class="checkbox">
+                                                    <input type="checkbox" name="newsletter"> Gostaria de receber a Newsletter da Empresa
+                                                </label>
+                                            </div>
+                        
+                                            <input type="submit" name="submit" class="submit" value="Enviar Mensagem">
+                        
+                                        </fieldset>
+                                    </form>
+                        
+                                </section>
+                </div>
+            </div>
+            <div class="rodape">
+                    <footer class="grupo">
+                            <p id="telefone-email">
+                                gui@exemplo.com.br
+                                <br>
+                                <span class="ddd">41</span> 5555-5555
+                            </p>
+                
+                            <p id="endereco">
+                                Rua do Jacaranda, 123, Bairro
+                                <br>
+                                CEP 00000-000
+                                <br>
+                                Diadema - SP
+                            </p>
+                
+                            <small id="copyright">
+                                &copy; Empresa Ltda. Todos os Direitos Reservados.
+                            </small>
+                        </footer>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
