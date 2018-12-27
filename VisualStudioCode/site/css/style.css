@@ -1,30 +1,160 @@
-.divprincipal{
-    background-color: red;
-    width: 800px;
-    height: 600px;
-    background: #6C7A89;
-    display: flex;
+body,
+html{
+	margin:  0; 
+	padding: 0;
+	font-size:18px;
+}
+body{
+    background-size:100%;
+    background-attachment:fixed;
+    margin: 0px;
+    display:block;
+
+}
+a, a img{
+	text-decoration:none;
+	border:none;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.principal{
+	width: 960px;
+	color: #444;
+	margin: 0 auto;
+	font-family:sans-serif;
+}
+.cabecalho, 
+.logo, 
+.rodape,
+.menu,
+.artigos,
+.box{
+	width:100%;
+	display:block;
+	clear:both;
+}
+.cabecalho{
+	height:100px;
+}
+.logo-cabecalho{
+	float:left;
+}
+.logo-cabecalho a{
+	font-size:50px;
+	font-style:italic;
+	text-decoration:none;
+	color:#000;
+	display:block;
+	padding:20px 0 0 0;
+}
+
+.menu{
+	background:brown;
+}
+.menu ul li, 
+.menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.menu ul li{
+	display:inline-block;
+}
+.menu ul li a{
+	display:block;
+	color:#fff;
+	padding:13px 20px;
+}
+.corpo{
+	position:relative;
+    overflow:hidden;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.corpo, 
+.rodape{
+    position:relative;
+    overflow:hidden;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.artigos{
+    width: 100%;
+    height: 100%;
+    display: block;
     flex-direction: row;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
-.divsecundaria {
-    background-color: Blue;
-    width: 500px;
-    height: 500px;
+.sidebar {
+    display: block;
+    width: 30%;
+    float: left;
+    background-color: gray;
+   }
+   
+   .article {
+    display:block;
+    width: 30%;
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+   }
+   
+   
+   .sidebar2 {
+    display: block;
+    width: 30%;
+    float: right;
+    background-color: gray;
+   }
+
+.box {
+    width: 100%;
+    height:100%;
+    background: #fff;
 }
 
-.divterciaria{
-    background-color: Green;
-    width: 400px;
-    height: 400px;
-    display: auto;
+.rodape{
+    width: 100%;
+    height: 100%;
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+	text-align:center;
 }
 
-body{
-    margin: 0px;
-    margin-left: auto;
-    margin-right: auto;
-}
+.grupo{
+	width: 100%;
+    height:100%;
+    background: brown;
+    padding:10px 15px;
+    display: inline-block;
 
+}
+ .grupo{
+    display:block;
+	color:#fff;
+	padding:13px 20px;
+}
+/*.menu ul li, 
+.menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.menu ul li{
+	display:inline-block;
+}
+.menu ul li a{
+	display:block;
+	color:#fff;
+	padding:13px 20px;
+}*/
